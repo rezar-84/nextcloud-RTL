@@ -1,0 +1,25 @@
+body {
+   direction:rtl;
+	 -webkit-font-smoothing: antialiased;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+ 
+#theming-customcss textarea {
+direction: ltr !important }
+
+
+element.style {
+    display: block;
+}
+#header .header-right > div > .menu:not(.popovermenu) {
+    display: none;
+}
+#header .header-right > div > .menu {
+   
+    max-height: calc(100vh - 50px + 8px);
+    right: auto;
+left:8px;
+ 
+}
